@@ -1,0 +1,59 @@
+/*** Primary Color Palette ***/
+$primary-1: #495e57;
+$primary-2: #f4ce14;
+
+/*** Secondary Color Palette ***/
+$secondary-1: #ee9972;
+$secondary-2: #fbdabb;
+$secondary-3: #edefee;
+$secondary-4: #333333;
+
+body {
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+}
+
+div,
+ul,
+p,
+span,
+a,
+h5,
+h6 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+span {
+  font-size: 16px;
+}
