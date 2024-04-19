@@ -1,7 +1,7 @@
 function Card({ title, price, image, description }) {
   return (
     <>
-      <div class="card">
+      <div className="card">
         <img
           src={`${process.env.PUBLIC_URL}/assets/img/${image}`}
           alt={title}

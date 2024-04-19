@@ -2,10 +2,10 @@ function Footer() {
   return (
     <>
       <footer>
-        <div class="grid grid-gap-xs">
-          <div class="child col-start-3@lg col-end-11@lg">
-            <div class="grid grid-gap-xs">
-              <div class="child col-12@xs col-6@sm col-3@md">
+        <div className="grid grid-gap-xs">
+          <div className="child col-start-3@lg col-end-11@lg">
+            <div className="grid grid-gap-xs">
+              <div className="child col-12@xs col-6@sm col-3@md">
                 <img
                   src={`${process.env.PUBLIC_URL}/assets/img/Logo .svg`}
                   width="200"
@@ -13,7 +13,7 @@ function Footer() {
                   alt=""
                 />
               </div>
-              <div class="child col-12@xs col-6@sm col-3@md">
+              <div className="child col-12@xs col-6@sm col-3@md">
                 <h5>Doormat Navigation</h5>
                 <ul>
                   <li>
@@ -36,7 +36,7 @@ function Footer() {
                   </li>
                 </ul>
               </div>
-              <div class="child col-12@xs col-6@sm col-3@md">
+              <div className="child col-12@xs col-6@sm col-3@md">
                 <h5>Contact</h5>
                 <ul>
                   <li>Address</li>
@@ -44,7 +44,7 @@ function Footer() {
                   <li>Email</li>
                 </ul>
               </div>
-              <div class="child col-12@xs col-6@sm col-3@md">
+              <div className="child col-12@xs col-6@sm col-3@md">
                 <h5>Social Media Links</h5>
                 <ul>
                   <li>Address</li>

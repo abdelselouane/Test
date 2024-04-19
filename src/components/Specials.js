@@ -1,20 +1,20 @@
 import Card from "./Card";
-function Categories() {
+function Specials() {
   return (
     <>
-      <section class="categories">
-        <div class="grid grid-gap-xs">
-          <div class="child col-start-3@lg col-end-11@lg">
-            <div class="grid grid-gap-xs">
-              <div class="child col-12@xs col-9@sm">
+      <section className="categories">
+        <div className="grid grid-gap-xs">
+          <div className="child col-start-3@lg col-end-11@lg">
+            <div className="grid grid-gap-xs">
+              <div className="child col-12@xs col-9@sm">
                 <h2>This Weeks Specials</h2>
               </div>
-              <div class="child col-12@xs col-3@sm">
-                <div class="online-order">
-                  <button class="btn btn-primary">Online Menu</button>
+              <div className="child col-12@xs col-3@sm">
+                <div className="online-order">
+                  <button className="btn btn-primary">Online Menu</button>
                 </div>
               </div>
-              <div class="child col-12@xs col-4@sm">
+              <div className="child col-12@xs col-4@sm">
                 <Card
                   title="Greek salad"
                   price="12.99"
@@ -24,7 +24,7 @@ function Categories() {
                   garlic and rosemary croutons."
                 />
               </div>
-              <div class="child col-12@xs col-4@sm">
+              <div className="child col-12@xs col-4@sm">
                 <Card
                   title="Bruchetta"
                   price="5.99"
@@ -33,7 +33,7 @@ function Categories() {
                   smeared with garlic and seasoned with salt and olive oil."
                 />
               </div>
-              <div class="child col-12@xs col-4@sm">
+              <div className="child col-12@xs col-4@sm">
                 <Card
                   title="Lemon Dessert"
                   price="6.99"
@@ -51,4 +51,4 @@ function Categories() {
   );
 }
 
-export default Categories;
+export default Specials;
