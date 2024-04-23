@@ -142,6 +142,15 @@ main {
   }
 }
 
+.booking-form {
+  margin: 40px;
+  > form {
+    display: grid;
+    max-width: 200px;
+    gap: 20px;
+  }
+}
+
 @media (max-width: 64rem) {
   main {
     .banner {
